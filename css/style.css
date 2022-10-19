@@ -1289,6 +1289,7 @@ h1, h2, h3, h4, h5,
       margin-right: 10px; }
     .ftco-cover-1.overlay form .btn {
       border-color: transparent; }
+      
 
 .owl-all .owl-dots {
   text-align: center;
@@ -1314,9 +1315,11 @@ h1, h2, h3, h4, h5,
     -ms-transform: none !important;
     transform: none !important;
     width: 120% !important;
+    height: auto !important;
     padding-top: 10px; }
   .owl-all .owl-carousel .owl-stage-outer {
     width: 100%;
+    height: auto;
     overflow: visible; }
   .owl-all .owl-stage-outer > .owl-stage > .owl-item {
     display: inline-grid;
@@ -1835,3 +1838,17 @@ h1, h2, h3, h4, h5,
 .img {
   vertical-align: middle;
   border-style: none; }
+
+
+
+  /* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+  .owl-carousel-wrapper{
+    height: auto !important;
+    width:auto !important;
+  }
+   .ftco-cover-1, .ftco-cover-1 .container > .row{
+    height: auto !important;
+    width:auto !important;
+   }
+}
